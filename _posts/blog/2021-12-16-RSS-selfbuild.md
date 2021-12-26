@@ -3,7 +3,8 @@ layout: post
 title: 信息茧房脱出-自建RSS
 date: 2021-12-15
 author: Anduin9527
-categorise: 折腾
+categories:
+     - blog
 tags : RSS 教程 
 permalink: /blog/2021/RSS-selfbuild
 ---
