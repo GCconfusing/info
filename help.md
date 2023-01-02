@@ -31,10 +31,10 @@ permalink: /help/
 
 您可以将您的文章以 Markdown 的格式提交到我们的 Git 仓库，遵循以下的步骤：
 
-打开我们的[仓库](https://github.com/NJUPT-SAST-Technology-Center/info.git)并 Fork 我们的项目到您的 Github 账号。
+打开我们的[仓库](https://github.com/njupt-sast/info.git)并 Fork 我们的项目到您的 Github 账号。
 
 ```bash
-git clone https://github.com/NJUPT-SAST-Technology-Center/info.git
+git clone https://github.com/njupt-sast/info.git
 cd ./info
 git remote add <YOUR-GITHUB-USERNAME> <YOUR FORKED URL>
 git checkout -b <BRANCH-NAME>
@@ -76,8 +76,8 @@ git push --set-upstream <YOUR-GITHUB-USERNAME> <BRANCHNAME>
 1. 将您的文章文件名改为 `YYYY-MM-DD-TITLE` 的格式
 2. 在您的文档开头添加元信息，具体格式为
 
-   ```
-   ---
+    ```
+    ---
     layout: post
     title: <YOUR-TITLE>
     date: <YYYY-MM-DD>
@@ -93,11 +93,11 @@ git push --set-upstream <YOUR-GITHUB-USERNAME> <BRANCHNAME>
     podcast: <LINK-TO-PODCAST> (only active when this is a event)
     poster: <LINK-TO-POSTER> (only active when this is a event)
     place: <EVENT-PLACE> (only active when this is a event)
-   ---
-   ```
+    ---
+    ```
 
     其中 `layout`、 `author` 和 `permalink` 为必填项。如果您希望以您的文章开头作为摘要，请在合适的地方添加 `<!--more-->` 标签。
-3. 插入图片的格式为： `![DESCRIPTION](/info/assets/img/blog/<TITLE>/<FILE-NAME>.png)`，并将相应图片移至该目录下。
+3. 插入图片的格式为： `![DESCRIPTION](/assets/img/blog/<TITLE>/<FILE-NAME>.png)`，并将相应图片移至该目录下。
 
 其余与一般 Markdown 语法相同，本站支持插入行内和块级公式。
 
@@ -105,6 +105,6 @@ git push --set-upstream <YOUR-GITHUB-USERNAME> <BRANCHNAME>
 
 搭建 Jekyll 环境，请参照官网的文档：<https://jekyllrb.com/docs/installation/>
 
-欢迎访问 SAST 的官方 Github： <https://github.com/NJUPT-SAST-Technology-Center>
+欢迎访问 SAST 的官方 Github： <https://github.com/njupt-sast>
 
-我们整理了科协人的个人博客，目录在：<https://github.com/NJUPT-SAST-Technology-Center/links>
+我们整理了科协人的个人博客，目录在：<https://github.com/njupt-sast/links>
